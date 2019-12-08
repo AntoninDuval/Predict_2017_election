@@ -14,7 +14,7 @@ cat_values = {"num_agglo": {'Village': 1, 'Bourg': 2, 'Petit ville': 3, \
                             'Ville moyenne': 4, 'Grande ville': 5, 'Métropole': 6}}
 
 
-def regression_plot(true_train, true_test, list_of_pred_df, candidat, town_train_index, town_test_index, turn=1,save=False, plot_name=None):
+def regression_plot(true_train, true_test, list_of_pred_df, candidat, town_train_index, town_test_index, turn=1):
     """
     input :
     - true_train : numpy array of true result for train_test
@@ -134,5 +134,4 @@ def regression_plot(true_train, true_test, list_of_pred_df, candidat, town_train
             x = np.arange(0, 1, 0.01)
             axes[0].plot(x, x)
             axes[1].plot(x, x)
-    if save:
-        f.savefig(plot_name+"_train.png")
+

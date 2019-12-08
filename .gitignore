@@ -1,0 +1,7 @@
+.ipynb_checkpoints/*
+/data/indice_vieux.csv
+/data/vote_par_agglo.csv
+/data/.ipynb_checkpoints/*
+/cleaning/.ipynb_checkpoints/*
+/models/.ipynb_checkpoints/*
+/exploration/.ipynb_checkpoints/*
